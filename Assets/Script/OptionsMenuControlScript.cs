@@ -47,17 +47,14 @@ DropdownDifficultyChanged(_dropdownDifficulty);});
  SingletonSoundManager.Instance.MusicVolume = SingletonSoundManager.Instance.
 MusicVolumeDefault;
  else
- SingletonSoundManager.Instance.MusicVolume = SingletonSoundManager.
-MUTE_VOLUME;
+ SingletonSoundManager.Instance.MusicVolume = SingletonSoundManager.MUTE_VOLUME;
  }
  public void OnToggleSFX(Toggle toggle)
  {
    SingletonGameApplicationManager.Instance.SFXEnabled = _toggleSFX.isOn;
  if (SingletonGameApplicationManager.Instance.SFXEnabled)
- SingletonSoundManager.Instance.MasterSFXVolume = SingletonSoundManager.
-Instance.MasterSFXVolumeDefault;
+ SingletonSoundManager.Instance.MasterSFXVolume = SingletonSoundManager.Instance.MasterSFXVolumeDefault;
  else
- SingletonSoundManager.Instance.MasterSFXVolume = SingletonSoundManager.
-MUTE_VOLUME;
+ SingletonSoundManager.Instance.MasterSFXVolume = SingletonSoundManager.MUTE_VOLUME;
  }
  }

@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 335068594}
   - component: {fileID: 335068593}
   - component: {fileID: 335068592}
+  - component: {fileID: 335068595}
   m_Layer: 5
   m_Name: Top Level Canvas UI Menu
   m_TagString: Untagged
@@ -313,6 +314,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &335068595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335068590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6786233a0f3ddba44aa1a8ae67436bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonBack: {fileID: 1382951229}
+  audioclipHoldOver: {fileID: 8300000, guid: 7d60d956e2f9b0f48887d05c8ddacb3d, type: 3}
 --- !u!1 &340691876
 GameObject:
   m_ObjectHideFlags: 0
